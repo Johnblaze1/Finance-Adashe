@@ -1,0 +1,172 @@
+<div style="float:right; margin-right:30px; border:1px solid black; width:150px; height:150px; padding-top:20px; border-radius:8px" onchange="replacepic()">
+					<center><p>UpLoad<br>Passport.</p>
+						<input type="file" name="pic" required style="margin-top:40px; width:90px"; id="picture">
+						<img src="" id="ppast" style="position:relative"; top:-120px; margin-top:17px; width:10em"/>
+					</center>
+				</div>
+                	<script type="text/javascript">
+					function replacpic(){
+						var fileName=document.getElementById("picture").files[o].name;
+						var fileDiv=document.getElementById("ppast");
+						fileDiv.src="image/+fileName";
+					}
+				</script>
+                <script type="text/javascript">
+					function replacpic(){
+						var fileName=document.getElementById("picture").files[o].name;
+						var fileDiv=document.getElementById("ppast");
+						fileDiv.src="image/+fileName";
+					}
+				</script>
+				<input type="number" name="" id="input" class="form-control" value="" min="{5"} max="" step="" required="required" title="">
+
+
+
+
+
+
+<form class=>
+<div class="form-group row">
+<label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">First Name</label><br>
+<div class="col-sm-10">
+<input type="text" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your First Name">
+</div>
+</div>
+<div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Other Name</label><br>
+        <div class="col-sm-10">
+        <input type="text" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your Other Name ">
+        </div>
+        </div>
+        <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">SurName</label><br>
+                <div class="col-sm-10">
+                <input type="text" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your Surname ">
+                </div>
+                </div>
+                <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Email</label><br>
+                        <div class="col-sm-10">
+                        <input type="email" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your Email Address ">
+                        </div>
+                        </div>
+                        <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">number</label><br>
+                                <div class="col-sm-10">
+                                <input type="number" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Your Phone Number ">
+                                </div>
+                                </div>
+                                <div class="form-group row">
+                                        <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Password</label><br>
+                                        <div class="col-sm-10">
+                                        <input type="password" class="form-control form-control-sm" id="colFormLabel" placeholder=" Enter Password ">
+                                        </div>
+                                        </div>
+                                        <div class="form-group row">
+                                                <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Comfirm Password</label><br>
+                                                <div class="col-sm-10">
+                                                <input type="password" class="form-control form-control-sm" id="colFormLabel" placeholder=" Comfirm Password ">
+                                                </div>
+                                                </div>
+</form>
+
+
+
+
+   
+<div id="myModal" class="modal fade">
+       <div class="modal-dialog">
+           <div class="content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                   <h4 class="modal-title">Modal Window</h4>
+
+               </div>
+               <div class="modal-body">
+                   
+                   
+                                          <div class="form-row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="col-6">
+                        <input type="Email" class="form-control" placeholder="Email">
+                    </div>
+                    <br><br>
+                    <div class="col-6">
+                            <input type="Number" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Home Address">
+                            </div>
+                            <br><br>
+                            <div class="col-6">
+                                    <input type="Number" class="form-control" placeholder="Account Number">
+                                </div>
+                                <div class="col-6">
+                                        <input type="password" class="form-control" placeholder=" Creat Password">
+                                    </div>
+                </div>
+
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <form style="background-image: url(images/hero_1.jpg); padding: 20%" > 
+    <div class="container">
+        
+   
+    <div class="form-row">
+        <div class="col-6">
+            <input type="text" class="form-control" placeholder="Full Name">
+        </div>
+        <div class="col-6">
+            <input type="Email" class="form-control" placeholder="Email">
+        </div>
+        <br><br>
+        <div class="col-6">
+                <input type="Number" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Home Address">
+                </div>
+                <br><br>
+                <div class="col-6">
+                        <input type="Number" class="form-control" placeholder="Account Number">
+                    </div>
+                    <div class="col-6">
+                            <input type="password" class="form-control" placeholder=" Creat Password">
+                        </div>
+    </div>
+    <br><br>
+    <button type="submit" class="btn-primary">Submit</button>
+</form>
+</div>"
+
+
+
+
+
+
+
+
+
+
+
